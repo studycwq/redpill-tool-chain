@@ -3,10 +3,14 @@
         "pid": "0x0001",
         "vid": "0x46f4",
         "sn": "1234XXX123",
-        "mac1": "XXYYXXYYXXYY"
+        "mac1": "XXYYXXYYXXYY",
+        "netif_num": 5
     },
     "synoinfo": {
-        "support_bde_internal_10g" : "no"
+        "internalportcfg": "0xffff",
+        "maxlanport": "5",
+        "support_bde_internal_10g" : "no",
+        "support_disk_compatibility":"no"
     },
     "ramdisk_copy": {},
     "extensions": []
