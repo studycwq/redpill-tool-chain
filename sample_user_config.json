@@ -5,7 +5,9 @@
         "sn": "1234XXX123",
         "mac1": "XXYYXXYYXXYY"
     },
-    "synoinfo": {},
+    "synoinfo": {
+        "support_bde_internal_10g" : "no"
+    },
     "ramdisk_copy": {},
     "extensions": []
 }
