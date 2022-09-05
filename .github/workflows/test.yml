@@ -23,6 +23,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          #  两行一组，删除不需要的版本
           - platform: ds3622xsp
             version: 7.1.0-42661
 
