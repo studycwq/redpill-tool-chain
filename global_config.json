@@ -250,7 +250,7 @@
       "user_config_json": "ds3622xsp_user_config.json",
       "docker_base_image": "debian:10-slim",
       "compile_with": "toolkit_dev",
-      "redpill_lkm_make_target": "dev-v7",
+      "redpill_lkm_make_target": "prod-v7",
       "downloads": {
         "kernel": {
           "url": "https://sourceforge.net/projects/dsgpl/files/Synology%20NAS%20GPL%20Source/25426branch/broadwellnk-source/linux-4.4.x.txz/download",
@@ -299,10 +299,6 @@
       "redpill_load": {
         "source_url": "https://github.com/pocopico/redpill-load.git",
         "branch": "develop"
-      },
-      "build_env": {
-        "jun_mod": 1,
-        "debug": 0
       }
     },
     {
